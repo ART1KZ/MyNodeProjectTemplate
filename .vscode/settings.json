@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true, // Форматирование (Prettier)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit" // Авто-фикс правил ESLint (импорты, вары)
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+}
